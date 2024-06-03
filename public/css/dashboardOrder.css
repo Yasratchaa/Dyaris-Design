@@ -1,0 +1,122 @@
+/* General styling */
+body {
+    font-family: Ubuntu;
+    color: black;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.palingLuar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Ubuntu;
+    margin-top: -100px;
+    color: black;
+}
+.outer1{
+    display: flex;  /* Menjadikan outer1 sebagai flex container */
+    flex-direction: row;  /* Membuat inner1 dan inner2 tampil berdampingan */
+    justify-content: space-between;  /* Memberikan ruang antara inner1 dan inner2 */
+    width: 100%; 
+}
+.inner1{
+    width: 556px;
+    height: 384px;
+    display: flex;  /* Menambahkan flex display */
+    flex-direction: column; 
+}
+.inti1 h1{
+    font-size: 96px;
+    font-weight: bold;
+    color: black;
+}
+.inti2{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inti2 button{
+    width: 258px;
+    height: 76px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    color: black;
+}
+.button1{
+    background-color: #3BDCF6;
+    color: #ffff;
+}
+.button2{
+    background-color: #ffff;
+    color: #070247;
+    margin-left: 25px;
+}
+.outer1 img{
+    
+}
+
+.senddesign {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.senddesign h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.senddesign div {
+    margin-bottom: 15px;
+}
+
+.senddesign label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.senddesign input[type="text"],
+.senddesign select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.senddesign button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.senddesign button:hover {
+    background-color: #0056b3;
+}
+
+.button1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}

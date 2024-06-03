@@ -1,0 +1,907 @@
+.homepage-dyaris {
+    display: flex;
+    width: 100%;
+    padding-top: 35px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F8F7F3;
+    background-size: cover;list-style-type: none;
+}
+.defaultpage-dyaris {
+    display: flex;
+    width: 100%;
+    padding-top: 35px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(bg-login.jpg);
+    background-color: #F8F7F3; /* Ubah warna latar belakang di sini */
+    background-size: cover;
+}
+
+.defaultpage-dyaris .homepage-res {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+}
+.homepage-dyaris .homepage-res {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 0 20px; /* Adjust the padding as needed */
+    background-color: #F8F7F3; /* Example background color */
+    border: #07080C;
+}
+
+.navbar .logo {
+    margin-right: 20px; /* Add space between the logo and the menu items */
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px; /* Add small gap between each menu item */
+}
+
+.nav-items li {
+    display: flex;
+    align-items: center;
+}
+
+.menu, .menus {
+    color: #07080C; /* Example text color */
+    font-family: Ubuntu; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: 400; /* Normal font weight */
+    text-decoration: none; /* Remove underline */
+    transition: 0.4s;
+    margin: 0; /* Remove margin between menu items */
+    padding: 0 10px; /* Adjust padding as needed */
+}
+
+.menu:hover, .menus {
+    font-weight: 800; /* Bold font weight on hover or active */
+}
+
+/* Existing CSS code... */
+
+.bi-caret-right {
+    margin-left: 5px; /* Space between text and icon */
+}
+
+
+.homepage-res .navbar {
+    display: flex;
+    padding: 0px 154px;
+    justify-content: center;
+    align-items: center;
+    gap: 381px;
+    align-self: stretch;
+    position: sticky;
+    top: 0;
+    transition: 0.4s;
+    z-index: 1000; /* Untuk memastikan navbar berada di depan */
+    background-color: transparent; /* Navbar awalnya transparan */
+}
+.div-nav > li {
+    list-style: none;
+}
+/* Membuat dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(6, 1, 70, 0.7); /* Gunakan nilai alpha (0.7) untuk transparansi */
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Menampilkan dropdown saat menu "Division" dihover */
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+/* Style untuk setiap item dropdown */
+.dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style untuk tautan di dalam dropdown */
+.dropdown-item a {
+    color: #F8F7F3;
+    text-decoration: none;
+}
+
+/* Style untuk tautan dropdown saat dihover */
+.dropdown-item:hover {
+    background-color:  rgba(0, 0, 0, 0.25);
+}
+
+.menu:hover .dropdown-item {
+    font-weight: normal; /* Atur kembali ke berat font normal */
+}
+
+
+.navbar.scrolled {
+    background-color: rgba(211, 211, 211, 0.5); /* Light gray with 50% opacity */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.navbar-links a {
+    text-decoration: none;
+}   
+
+.homepage-res .logo {
+    width: 238px;
+    height: 83px;
+}
+
+.homepage-res .div-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.homepage-res .menus {
+    color: #07080C;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.homepage-res .menu {
+    color: #07080C;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+}
+
+
+
+.homepage-res .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 45px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu:hover {
+    font-weight: 800;
+}
+
+.homepage-res .imgrobot {
+    width: 529px;
+    height: 408px;
+    mix-blend-mode: luminosity;
+}
+
+.homepage-res .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.homepage-res .header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homepage-res .text {
+    width: 556px;
+    color:#07080C;
+    display: flex;
+
+}
+
+.homepage-res .span {
+    font-family: Ubuntu;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97.75%; /* 87.975px */
+    background: #07080C;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homepage-res .p {
+    font-family: Ubuntu;
+    width: 556px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.75%; /* 29.325px */
+    background: #07080C;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.homepage-res .butt {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #A91D36;
+    box-shadow: 20px 15px 25px 0px #6A2E2A;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.butt:hover {
+    scale: 1.2;
+}
+
+.homepage-res .text-wrapper-2 {
+    color: #07080C;
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.homepage-res .headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.homepage-res .headline-2 {
+    display: flex;
+    width: 122px;
+    height: 110px;
+    padding: 11px 37px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 11px;
+    background: linear-gradient(
+        126deg,
+        rgba(0, 0, 0, 0.35) 4.04%,
+        rgba(102, 102, 102, 0.5) 100%
+    );
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.headline-2:hover {
+    scale: 1.4;
+}
+
+.homepage-res .icon {
+    width: 54px;
+    height: 54px;
+    fill: #F8F7F3;
+}
+
+.homepage-res .text-2 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .img {
+    width: 86px;
+    height: 86px;
+    fill: #F8F7F3;
+}
+
+.homepage-res .text-3 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .tagline {
+    display: flex;
+    padding: 0px 178px;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    align-self: stretch;
+}
+
+.homepage-res .isi {
+    display: flex;
+    min-width: 716px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: #07080C;
+}
+
+.homepage-res .robotiikwhite {
+    width: 283px;
+    height: 242px;
+}
+
+.homepage-res .div-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.homepage-res .text-4 {
+    flex: 1 0 0;
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    align-self: stretch;
+}
+
+.homepage-res .technical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    align-self: stretch;
+}
+
+.homepage-res .text-5 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .anggota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 56px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-2 {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 40px;
+    background: linear-gradient(
+        151deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(153, 153, 153, 0.03) 96.69%
+    );
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.frame-2:hover {
+    box-shadow: 10px 15px 20px 0px #0275bf;
+    scale: 1.2;
+}
+
+.homepage-res .icon-2 {
+    width: 180px;
+    height: 180px;
+    fill: #F8F7F3;
+}
+
+.homepage-res .frame-3 {
+    display: flex;
+    width: 200px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(
+        90deg,
+        #0275bf 0%,
+        rgba(100, 204, 214, 0.9) 100%
+    );
+    box-shadow: 10px 15px 20px 0px #0275bf;
+}
+
+.homepage-res .text-6 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .nontechnical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    align-self: stretch;
+}
+
+.homepage-res .frame-4 {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-5 {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 40px;
+    background: linear-gradient(
+        151deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(153, 153, 153, 0.03) 96.69%
+    );
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.homepage-res .icon-3 {
+    width: 126.78px;
+    height: 126.78px;
+    flex-shrink: 0;
+    fill: #F8F7F3;
+}
+
+.homepage-res .frame-6 {
+    display: flex;
+    width: 200px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(
+        180deg,
+        #eebe76 0.1%,
+        rgba(255, 164, 92, 0.4) 100.1%
+    );
+    box-shadow: 15px 15px 20px 0px rgba(204, 106, 28, 0.5);
+}
+
+.frame-5:hover {
+    box-shadow: 15px 15px 20px 0px rgba(255, 251, 0, 0.5);
+    scale: 1.2;
+}
+
+.homepage-res .text-7 {
+    color: #F8F7F3;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage-res .achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+}
+
+.homepage-res .text-wrapper-3 {
+    color: #07080C;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .achievement-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.homepage-res .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.homepage-res .frame-wrapper {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.homepage-res .frame-8 {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.homepage-res .frame-9 {
+    display: flex;
+    padding: 50px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    border-radius: 20px;
+    background: linear-gradient(
+        158deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.35) 97.02%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.homepage-res .text-wrapper-4 {
+    width: 94.812px;
+    height: 19.266px;
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+.homepage-res .icon-trophy {
+    width: 73.599px;
+    height: 74.45px;
+}
+
+.homepage-res .COMPETITION {
+    width: 94.812px;
+    height: 19.266px;
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .frame-10 {
+    display: flex;
+    padding: 102px 119px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.35) 100%
+    );
+    backdrop-filter: blur(2px);
+}
+
+.homepage-res .COMPETITION-wrapper {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.homepage-res .COMPETITION-2 {
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .butt-2 {
+    display: flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(95deg, #3bdcf6 0%, #070247 100%);
+    box-shadow: 20px 15px 25px 0px #156c78;
+    transition: 0.4s;
+}
+
+.butt-2:hover {
+    scale: 1.2;
+}
+
+.homepage-res .relation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homepage-res .text-wrapper11 {
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .frame11,
+.homepage-res .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homepage-res .div11 {
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .sponsor-scroll-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.homepage-res .sponsor-atas {
+    display: flex;
+    gap: 40px;
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.homepage-res .sponsorship .sponsor-atas {
+    animation: scroll-right 30s linear infinite;
+}
+
+.homepage-res .partnership .sponsor-atas {
+    animation: scroll-left 30s linear infinite;
+}
+
+.homepage-res .sponsor {
+    display: flex;
+    width: 287px;
+    height: 247px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+    background: linear-gradient(
+        127deg,
+        rgba(0, 0, 0, 0.56) 5.77%,
+        rgba(0, 0, 0, 0.16) 96.19%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(40px);
+}
+
+.homepage-res .robotikk-4 {
+    width: 147px;
+    height: 173px;
+    flex-shrink: 0;
+    backdrop-filter: blur(2px);
+}
+
+.homepage-res .text-wrapper-22 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .footer {
+    display: flex;
+    padding: 30px 154px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background-color: #07080C; /* Ubah warna latar belakang menjadi hitam */
+}
+
+
+.homepage-res .f-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.homepage-res .frame33 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.homepage-res .text33 {
+    height: 35px;
+    align-self: stretch;
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage-res .text-wrapper33 {
+    height: 72px;
+    align-self: stretch;
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 154px;
+    background-color: #07080C; /* Ubah warna latar belakang menjadi hitam */
+    color: #F8F7F3; /* Tambahkan warna teks putih untuk kontras */
+}
+
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.f-kanan {
+    display: flex;
+    align-items: center;
+}
+
+.konten-kanan {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.text33 {
+    height: 35px;
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-wrapper33 {
+    color: #F8F7F3;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+
+
+
